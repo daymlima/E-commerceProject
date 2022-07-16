@@ -32,11 +32,22 @@
         </nav>
     </header>
 
+    <div class="container2">
+        <div class="boxDestaque">
+            <span>30%</span>
+            <h3>Coleção <br> Supreme</h3>
+            <button>Comprar</button>
+            <img class="imgDestaque" src="img/image.png" alt="" ></div>
+        <div class="boxDestaque"></div>
+        <div class="boxDestaque"></div>
+    </div>
+
     <style>
         *{
             margin: 0;
             box-sizing: border-box;
         }
+      
         body{
             margin: 0;
             font-family: sans-serif;
@@ -45,9 +56,15 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+            
         }
         .topBar h1{
             color: #c21d70;
+        }
+        .main-nav{
+            width: 1240px;
+            max-width: 95%;
+            margin: auto;
         }
         .main-nav ul {
             display: flex;
@@ -82,7 +99,6 @@
 
         .topBar input{
             width: 559px;
-
         }
        .topBar .login{
         text-align: center;
@@ -93,7 +109,28 @@
         width: 114px;
         height: 40px;
         text-decoration: none;
+       }
+       .imgDestaque{
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+       }
+       .container2{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        width: 1240px;
+        max-width: 95%;
+        margin: auto;
         
+       }
+       .boxDestaque{
+        position: relative;
+        align-items: center;
+        width: 33.3% ;
+        height: 251px;
+        background-color: #C4C4C4;
+        border-radius: 8px;
        }
     </style>
 </body>
